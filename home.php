@@ -217,7 +217,7 @@ your budget.</p>
 					<!-- Social -->
 					<ul class="social ">
 						<li><a href="http://www.facebook.com/thwebco" class="poshytip  facebook" title="Become a fan"></a></li>
-						<li><a href="http://www.twitter.com" class="poshytip twitter" title="Follow our tweets"></a></li>
+						<li><a href="http://www.twitter.com/thestoreybook" class="poshytip twitter" title="Follow our tweets"></a></li>
 						
 						
 						
