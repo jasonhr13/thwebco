@@ -24,9 +24,8 @@
 						</li>
 					  <li class="col">
 						<h6>Testimonials</h6>
-						 <span class="editable" id="included-region-1"> Terre Haute Web Company's services were top-notch. They make getting a website super simple. After a not so long conversation with them, they had a pretty good idea of what my website would look like and function like, and when I saw the mockup they made I knew they were the real deal. But the best part has to be the price, you just can't beat it.<br>
-						  -John S. <br>
-						  Terre Haute.</span>					  </li>
+						 <span class="editable" id="included-region-1"> Testimonials Coming Soon.
+						</span>					  </li>
 					</ul>
 					<!-- ENDS footer-cols -->
 			  </div>
