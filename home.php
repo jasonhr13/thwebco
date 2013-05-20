@@ -159,7 +159,7 @@ should have to spend thousands of dollars on a web site. We strive to meet the
 needs of small business and also have the ability to tackle large projects.
 Below you can read a little about the services we offer. Whatever it is, from
 web design to social media, we can develop a plan that fits both your ideas and
-your budget. test piece</p>
+your budget.</p>
                        
                     <div class="one-third left-space" id="dev_box">
 					  <div class="box-head">Web Development</div>
