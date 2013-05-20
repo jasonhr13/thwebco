@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+		<title>Gingersnaps Mobile</title>
+		<link rel="stylesheet" href="themes/gsnaps.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+        <script src="js/specials.js"></script>
+        <script type="text/javascript">
+	function hideURLbar() {
+	if (window.location.hash.indexOf('#') == -1) {
+		window.scrollTo(0, 1);
+	}
+}
+
+if (navigator.userAgent.indexOf('iPhone') != -1 || navigator.userAgent.indexOf('Android') != -1) {
+    addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+    }, false);
+}
+
+	</script>
+    <style type="text/css">
+	.social-icons full {
+		
+	}
+	.social-icons img {
+		margin-left: 8px;
+	}
+	</style>
+     
+	</head>
+	<body>
+		<div data-role="page" data-theme="a">
+			<div data-role="header" data-position="">
+				<p style="text-align:center"><img src="images/mobile_logo.png" width="260" height="108"></p>
+			</div>
+			<div data-role="content" data-theme="a">
+            
+            <p style="text-align:center; font-size:18px;">3125 S. 3rd Place<br />
+               Terre Haute, IN 47802<br />
+               <a href="tel:8122347627">812-234-SNAP</a> (7627)</p>
+            
+<div data-role="collapsible-set">
+                <div data-role="collapsible" data-content-theme="a">
+ <h3>Today's Specials</h3>
+ 
+ <p id="datecontent"></p>
+<script type="text/javascript">
+	var x;
+
+
+
+var d=new Date().getDay();
+
+
+
+switch (d)
+
+
+
+  {
+
+
+
+  case 0:
+
+
+
+    x="<p><strong>Sunday:</strong> Closed</p>";
+
+
+
+    break;
+
+
+
+  case 1:
+
+
+
+    x="<p><strong>MONDAY</strong></p> <p><strong>Soups: </strong>Potato Dill and Tomato Basil</p><p><strong>Coffee:</strong> Vermont Maple, Dark Roast, House Blend and Decaf. </p>";
+
+
+
+    break;
+
+
+
+  case 2:
+
+
+
+    x="<p><strong>TUESDAY</strong><p> <p><strong>Soups: </strong>Stuffed Green Pepper and Tomato Basil</p> <p><strong>Coffee:</strong> Creamy Caramel, Dark Roast, House Blend and Decaf. </p>";
+
+
+
+    break;
+
+
+
+  case 3:
+
+
+
+    x="<p><strong>WEDNESDAY</strong></p> <p><strong>Soups: </strong>Timberline Chili and Tomato Basil</p> <p><strong>Coffee:</strong> Jamaican Me Crazy, Dark Roast, House Blend and Decaf.</p>";
+
+
+
+    break;
+
+
+
+  case 4:
+
+
+
+    x="<p><strong>THURSDAY</strong></p> <p><strong>Soups: </strong>Vegetarian Vegetable and Tomato Basil</p> <p><strong>Coffee:</strong> Blueberry Streusel, Dark Roast, House Blend and Decaf.</p>";
+
+
+
+    break;
+
+
+
+  case 5:
+
+
+
+    x="<p><strong>FRIDAY</strong></p> <p><strong>Soups: </strong> Broccoli Cheddar and Tomato Basil</p> <p><strong>Coffee:</strong> Chocolate Banana Hazelnut, Dark Roast, House Blend and Decaf.</p>";
+
+
+
+    break;
+
+
+
+  case 6:
+
+
+
+    x="<p><strong>SATURDAY</strong></p> <p><strong>Soups: </strong>Chicken Tortilla and Tomato Basil</p><p><strong>Coffee:</strong> Vanilla Almond Praline, Dark Roast, House Blend and Decaf.</p>";
+
+
+
+    break;
+
+
+
+  }
+
+
+
+document.getElementById("datecontent").innerHTML=x;
+
+</script>
+ </div>
+ 
+ <!-- MENU -->
+ <div data-role="collapsible" data-content-theme="e">
+ <h3>Menu</h3>
+ 
+     <div data-role="collapsible" data-inset="true" data-content-theme="e">
+ <h3>Pick Two</h3>
+ <p>Choose any two: 1/2 sandwich, cup of soup, or small salad</p>
+     </div>
+     <!-- END PICK TWO -->
+ 
+ 
+ 	<div data-role="collapsible" data-inset="true" data-content-theme="e">
+ <h3>Drinks</h3>
+ 
+        <div data-role="collapsible" data-content-theme="e">
+     <h3>Coffee</h3>
+     <p style="font-size:90%; color:#f49000">Coffee beans are sold in 12oz. packages for $9.99<br>
+If you want to try and of our coffees you can purchase a sample size for $1.99 (makes an 8oz. cup of coffee).<br>
+Availabilty sometimes changes, seasonal coffees aren't usually listed here. Call or check at the store for new coffees.</p>
+     		<table border="0">
+<tbody>
+<tr>
+<td align="left">Almond Amaretto</td>
+<td>House Blend</td></tr>
+<tr>
+<td>Apricot Creme</td>
+<td>
+<div align="left">Jamaican Me Crazy</div></td></tr>
+<tr>
+<td>Bananas Foster</td>
+<td>
+<div align="left">Jazzy Java</div></td></tr>
+<tr>
+<td>Berries &amp; Cinnamon</td>
+<td>Mello Yello</td></tr>
+<tr>
+<td>Blueberry Cinnamon Crumble</td>
+<td>
+<div align="left">Pumpkin Creme Brulee</div></td></tr>
+<tr>
+<td>Blueberry Streussel</td>
+<td>
+<div align="left">Raspberetto</div></td></tr>
+<tr>
+<td>Butter Pecan</td>
+<td>
+<div align="left">Raspberry Coconut</div></td></tr>
+<tr>
+<td>Carrot Cake</td>
+<td>
+<div align="left">Red White &amp; Blue</div></td></tr>
+<tr>
+<td>Chocolate Banana Hazelnut</td>
+<td>
+<div align="left">Scrunchy Munchy Caramel</div></td></tr>
+<tr>
+<td>Chocolate Coconut Dream</td>
+<td>
+<div align="left">Snickerdoodle</div></td></tr>
+<tr>
+<td>
+<div align="left">Chocolate Raspberry</div></td>
+<td>
+<div align="left">Spice Butter Rum</div></td></tr>
+<tr>
+<td>
+<div align="left">Cinnamon Hazelnut</div></td>
+<td>
+<div align="left">Sticky Bun</div></td></tr>
+<tr>
+<td>
+<div align="left">Cinnamon Vanilla Creme</div></td>
+<td>
+<div align="left">Vanilla Almond Praline</div></td></tr>
+<tr>
+<td>
+<div align="left">Cranberry Creme</div></td>
+<td>
+<div align="left">Vanilla Colada</div></td></tr>
+<tr>
+<td>
+<div align="left">Creme Brulee</div></td>
+<td>
+<div align="left">Vermont Maple</div></td></tr>
+<tr>
+<td>Decaf Highlander Grogg</td>
+<td>Vienna Cinnamon</td></tr>
+<tr>
+<td>Decaf House Blend</td>
+<td>White Chocolate Raspberry Truffle</td></tr>
+<tr>
+<td>Decaf Red White &amp; Blue</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>Decadent Brownie Delight</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>
+<div align="left">Eggnog</div></td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>French Roast</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>French Vanilla</td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>
+<div align="left">Gingerbread</div></td>
+<td>&nbsp;</td></tr>
+<tr>
+<td>Highlander Grogg</td>
+<td>&nbsp;</td></tr></tbody></table>
+     
+     
+         </div>
+         
+         <div data-role="collapsible" data-content-theme="e">
+     <h3>Specialty</h3>
+     
+     <p>Caff&eacute; Americano</p>
+      <p>Caff&eacute; Aulait</p>
+       <p>Cappuccino</p>
+        <p>Caff&eacute; Latte</p>
+         <p>Flavored Latte</p>
+          <p>Caff&eacute; Mocha</p>
+           <p>White Chocolate Mocha</p>
+            <p>Breve</p>
+             <p>Chai Tea Latte</p>
+              <p>Gourmet Hot Chocolate</p>
+               <p>Steamers</p>
+                <p>Novus Hot Tea</p>
+                 <p>Iced Tea</p>
+                  <p>Italian Soda</p>
+                   <p>French Soda</p>
+     	 </div>
+     
+         <div data-role="collapsible" data-content-theme="e">
+     <h3>Smoothies</h3>
+     <p style="font-size:90%; color:#f49000">Our smoothies are 100% crushed fruit!
+No added sugar, artificial flavors, colors or preservatives.
+Fat free and lactose free.
+Each large smoothie (20oz.) gives you a full 5 servings of fruit plus vitamins and minerals for your health!</p>
+     
+     			<p>Strawberry</p>
+<p>Mango Tropics</p>
+<p>Strawberry Banana</p>	
+<p>Wild Cherry Cranberry</p>
+<p>Four Berry (blackberry, raspberry, strawberry, and blueberry)</p>	
+<p>Pink Lady (strawberry and pineapple with bits of
+strawberries and oranges pulsed in.)</p>
+<p>Orange Tangerine</p>
+<p>Pineapple Paradise</p>
+<p>Guava Passionfruit</p>	
+<p>Red Apple</p>
+<p>Peach Pear Apricot</p>
+<p>Island Breeze (guava, passionfruit, pinapple, and mango)</p>
+<br />
+<p style="font-size:90%; color:#f49000">Want to make your own custom combination? Just ask!</p>
+     
+     
+     
+         </div>
+         
+         <div data-role="collapsible" data-content-theme="e">
+     <h3>Frappes</h3>
+     
+     	<table border="0">
+<tbody>
+<tr>
+<td>
+<strong><ins>COFFEE</ins></strong></td>
+<td><strong><ins>NON-COFFEE</ins></strong></td></tr>
+<tr>
+<td>Decaf Mocha</td>
+<td>
+Frozen Hot Chocolate</td></tr>
+<tr>
+<td>Kona Mocha</td>
+<td>Frozen White Chocolate</td></tr>
+<tr>
+<td>Vanilla Latte</td>
+<td>Cake Batter</td></tr>
+<tr>
+<td>Caramel Latte</td>
+<td>Honeydew</td></tr>
+<tr>
+<td>Heath Mocha</td>
+<td>Coconut</td></tr>
+<tr>
+<td>Espresso</td>
+<td>Cookies 'n' Cream</td></tr>
+<tr>
+<td>Java Chip</td>
+<td>Strawberry</td></tr>
+<tr>
+<td>Peppermint Mocha</td>
+<td>Orange Creamsicle</td></tr>
+<tr>
+<td>Vanilla Latte (no sugar added)</td>
+<td>Bubblegum</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>Cotton Candy</td></tr>
+<tr>
+<td>&nbsp;</td>
+<td>Vanilla Bean</td></tr></tbody></table>
+     
+     
+         </div>
+ 	</div> 
+    <!-- END DRINKS -->
+    
+    	<div data-role="collapsible" data-content-theme="e">
+ <h3>Hot Sandwiches</h3>
+ 
+ <p style="font-size:90%; color:#f49000">** All sandwiches are served with the choice of house chips or bagged chips</p>
+ 
+       <p><strong>Grilled Cuban:</strong> Roast pork, ham, provolone, dill relish, spicy mustard served on ciabatta bread</p>
+
+    <p><strong>Roast Pork Pesto:</strong> Roast pork, provolone, pesto, lettuce, tomato served on ciabatta bread</p>
+
+   <p><strong> Roast Pork Melt:</strong> Roast pork, bacon, cheddar, pepper jack, onion, served on ciabatta bread </p>
+   
+   <p><strong>Ultimate Grilled Cheese:</strong> Cheddar, provolone, tomato, bacon, and spinach on marbled rye bread</p>
+
+<p><strong>Turkey Pesto:</strong> Turkey, bacon, provolone, pesto, lettuce, and tomato served on ciabatta bread</p>
+
+<p><strong>Italian Herb Club:</strong> Turkey, ham, provolone, Italian herbs with lettuce, tomato, and Italian dressing served on ciabatta bread</p>
+
+<p><strong>Grilled Ham, Cheese, & Tomato:</strong> Ham, cheddar, and tomato served on ciabatta bread</p>
+        
+  <p><strong> Ham & Provolone:</strong> Ham, provolone, honey mustard, served on ciabatta bread</p>
+  <p><strong>Grilled Double Cheese:</strong> Cheddar and provolone on your choice of bread</p>
+ 	</div> 
+    <!-- END HOT SANDWICHES -->
+    
+    <div data-role="collapsible" data-content-theme="e">
+ <h3>Cold Sandwiches</h3>
+ 
+ <p style="font-size:90%; color:#f49000">** All sandwiches are served with the choice of house chips or bagged chips</p>
+ 
+       <p><strong>Caesar Pork Wrap:</strong> Roast pork, romaine, parmesan with Caesar dressing on wheat wrap</p>
+      <p><strong> All- American Club:</strong> Turkey, ham, bacon, cheddar, lettuce, tomato, and mayo served on wheatberry toast</p>
+
+<p><strong>BLT +C:</strong> Bacon, lettuce, tomato, cheddar, and mayo on whole grain white toast</p>
+
+<p><strong>Simple Sandwich:</strong> Turkey, provolone, spinach, tomato, cucumber and mayo on wheatberry bread</p>
+       
+       <p><strong>Chicken Salad:</strong> Homemade with chicken, grapes, mayo, and cashews served on a croissant </p>
+
+<p><strong>Tuna Salad:</strong> Homemade with tuna, mayo, dill relish, and egg served on a croissant</p>
+
+<p><strong>Egg Salad:</strong> Homemade with egg, mayo, mustard, and dill served on a croissant</p>
+       
+       <p><strong>Turkey Ranch Wrap:</strong> Turkey, lettuce, tomato, cucumber on wheat wrap with ranch dressing</p>
+
+<p><strong>Chicken Caesar Wrap:</strong> Chicken, romaine, and parmesan on wheat wrap with Caesar dressing</p>
+
+<p><strong>Spinach Wrap: Spinach, bacon, tomato, and egg on spinach wrap with honey mustard</strong>
+
+<p><strong>Vegetarian Wrap:</strong>  Lettuce, tomato, cucumber, peppers, carrots, onion and pepperjack on wheat wrap with choice  dressing</p>
+       
+ 	</div> 
+    <!-- END COLD SANDWICHES -->
+    
+    <div data-role="collapsible" data-inset="true" data-content-theme="e">
+ <h3>Salads</h3>
+ 
+ <p style="font-size:90%; color:#f49000"><strong>Dressing choices:</strong> Ranch, Fat Free Ranch, French,  Caesar, Southwest Caesar, Italian, Honey Mustard,  Asian, Fat Free Raspberry Vinaigrette, 
+
+Balsamic Vinaigrette and oil & vinegar.</p>
+ 
+ 		<p><strong>Mandarin Chicken:</strong> A mixture of romaine and spinach with chicken, mandarin oranges, and cashews with asian dressing</p>
+
+<p><strong>Northwoods:</strong> A mixture of romaine and spinach with chicken, craisins and walnuts with raspberry vinaigrette</p>
+
+<p><strong>Greek Salad:</strong> Romaine, onion, black olives, peppers, tomato, cucumber and feta with caesar dressing</p>
+
+<p><strong>Chicken Caesar:</strong> Romaine, chicken, parmesan, and croutons with caesar dressing</p>
+
+<p><strong>Southwestern Caesar w/Chicken:</strong> Romaine, chicken, parmesan, and tortilla strips with southwest caesar dressing</p>
+
+<p><strong>Clubhouse:</strong> Romaine, cheddar, tomato, cucumber, turkey, ham, and bacon with ranch dressing</p>
+
+<p><strong>Bacon, Spinach, & Tomato:</strong> Spinach, bacon, tomato, and egg with honey mustard</p>
+
+<p><strong>Harvest Salad:</strong> spinach, apples, strawberries, walnuts and parmesan with poppyseed dressing</p>
+
+<p><strong>House Spinach</strong> Spinach, strawberries, mandarin oranges with honey mustard </p>
+ 
+ <p><strong>House Garden</strong> Romaine, carrots, cucumber, tomato, and croutons</p>
+     </div>
+     <!-- END SALADS -->
+    
+    <div data-role="collapsible" data-inset="true" data-content-theme="e">
+ <h3>Soups</h3>
+ 
+    <p><strong>Monday:</strong> Creamy Potato Dill</p>
+    <p><strong>Tuesday:</strong> Stuffed Green Pepper</p>
+    <p><strong>Wednesday:</strong> Timberline Chili</p>
+    <p><strong>Thursday:</strong> Vegetarian Vegetable</p>
+    <p><Strong>Friday:</Strong> Broccoli Cheddar, Saturday : Chicken Tortilla</p>
+ 
+     </div>
+     <!-- END SOUPS -->
+     
+     <div data-role="collapsible" data-inset="true" data-content-theme="e">
+ <h3>Kids Menu</h3>
+ 
+<p style="font-size:90%; color:#f49000"> ** All sandwiches are served with the choice of house chips, bagged chips or goldfish and a small soda or lemonade</p>
+ 
+ <p><strong>PB&J combo:</strong> Peanut butter and Strawberry jam with strawberries</p>
+
+<p><strong>Grilled cheese combo:</strong>  American cheese on white or wheat bread</p>
+
+<p><strong>Turkey or ham combo:</strong> Turkey or ham on white or wheat bread</p>
+     </div>
+     <!-- END KIDS -->
+     
+    
+ </div>
+ <!-- END MENU -->
+ 
+  <div data-role="collapsible" data-content-theme="a">
+ <h3>About Us</h3>
+ <p><strong>August 2007 changed everything...</strong></p>
+     <p>I remember coming out of his office saying "It isn't a dream anymore... It's becoming a reality."
+Almost everyone who knows me knew I've always wanted my own "coffee shop". That was a passion of mine that I prayed about for many years, until one day...
+During my mothers daily prayer time she recalls hearing "The Open Door" - Not sure why, she prayed for the owners, for their business and then it occured to her, maybe this is for Lisa? Coming to me one day she says... "Have you ever considered asking the owners if they'd consider allowing you to put your coffee shop inside the bookstore?" The answer of course was no; but what could it hurt to ask?
+So...off I went. Praying about the "meeting". I went in and sat at his desk telling all about my ideas and my moms prayer all the time to a smiling man who I seriously thought he was thinking I was crazy! After all the plans were on the table he speaks, "Let me tell you where I'm at, I've been working with a redesigning firm, and they just suggested that I should put a coffee shop inside my bookstore."
+Thus Gingersnaps Coffeehouse and Cafe was born.</p>
+                                                                                <strong>Lisa Eilbracht - Owner</strong>
+  </div>
+ <p style="margin-bottom: 50px;"></p>
+ 
+</div>
+			</div>
+            
+       <div data-role="footer" data-theme="a">
+       
+         <div class="social-icons"><a href="http://www.facebook.com/GingersnapsCafe" target="_blank"><img src="images/fb64.png" width="48" height="48" alt="facebook"></a>  <a href="http://www.yelp.com/biz/gingersnaps-coffeehouse-and-cafe-terre-haute" target="_blank"><img src="images/yelp64.png" width="48" height="48" alt="yelp"></a> <a href="http://www.urbanspoon.com/r/304/1518728/restaurant/Gingersnaps-Coffeehouse-Cafe-Terre-Haute" target="_blank"><img src="images/urban64.png" width="48" height="48" alt="urbanspoon"></a> <a href="http://www.gingersnapscafe.com/?ViewFullSite=true" style="line-height: 76px;
+display: inline-block;
+vertical-align: top;
+float: right;
+margin-right: 10px;">View Full Site</a></div>
+         </div>
+		</div>
+	</body>
+</html>

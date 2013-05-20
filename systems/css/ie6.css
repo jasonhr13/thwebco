@@ -1,0 +1,67 @@
+
+		/* This hack is for pngs that can't be fix by dd_belated_png script. so I replace them all with gif */
+		
+		.menu li a{
+			background: url(../images/nav.gif) no-repeat left -41px;
+		}
+
+		.menu li a span {	
+			background: url(../images/nav.gif) no-repeat right top;
+		}
+		
+		.menu li.last a span {	
+			background: url(../images/nav.gif) no-repeat right -82px;
+		}
+		
+		.menu li a.current {
+			background: url(../images/nav.gif) no-repeat left -123px;
+		}
+		
+			.menu li.first a.current {
+				background: url(../images/nav.gif) no-repeat left -164px;
+			}
+			
+
+		.menu li a.current span {
+			background: url(../images/nav.gif) no-repeat right -123px;
+		}
+		
+		.menu li.last a.current span {
+			background: url(../images/nav.gif) no-repeat right -205px;
+		}
+		
+		
+		.header-image {
+			background: url(../images/header_image_container_ie6.png) no-repeat 16px left;
+		}
+
+		.header-description ul li {
+			background: url(../images/header_bullet.gif) no-repeat left;
+		}
+		
+		
+		
+		a.button {
+			background: url('../images/button.gif') no-repeat scroll top left; 
+		}
+
+		a.button span  {
+			background: url('../images/button.gif') no-repeat scroll top right; 
+		}
+
+		a.button-color {
+			background: url('../images/button_color.gif') no-repeat scroll top left; 
+		}
+
+		a.button-color span {
+			background: url('../images/button_color.gif') no-repeat scroll top right; 
+		}
+
+		a.button-header {
+			background: url('../images/button_header.gif') no-repeat scroll top left; 
+		}
+
+		a.button-header span {
+			background: url('../images/button_header.gif') no-repeat scroll top right; 
+		}
+		

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "projects"
+AuthUserFile "/home5/thestore/.htpasswds/public_html/thwebco/projects/passwd"
+require valid-user
