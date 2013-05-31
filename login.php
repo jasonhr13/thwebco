@@ -35,7 +35,7 @@
 	<div class="container">
 	<div style="width: 420px; margin:0 auto; margin-top: 120px"><img src="img/login_logo2.png"></div>
 <div class="form-bg">
-			<form method="post" action="http://login.thwebco.com/login">
+			<form method="post" action="http://cms.thwebco.com/login">
 				<h2>Login</h2>
 				<p><input type="text" placeholder="Email" name="email"></p>
 				<p><input type="password" placeholder="Password" name="password"></p>
