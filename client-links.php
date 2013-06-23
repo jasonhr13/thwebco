@@ -141,7 +141,7 @@
 							<p class="editable">Below is a list of links for our services just in case you have forgotten or lost the email containing these links.</p>
                             <p></p>
                            <p><a href="http://www.thwebco.com/email">Webmail Login - www.thwebco.com/email</a></p>
-                           <p><a href="http://www.thwebco.com/login">kiwiCMS Login - www.thwebco.com/login</a></p>
+                           
                            <br />
                            <p>Wordpress, Drupal, or Joomla Sites - Replace "yourdomain" with your sites domain minus the .com, .net, etc.<br>
                            (example: www.thwebco.com/ingasblooms) </p>

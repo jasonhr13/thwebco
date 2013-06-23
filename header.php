@@ -12,7 +12,7 @@
 						</form>
 					</div>
 					<!-- ENDS search -->
-                    <div class="client-log-in"><a href="http://www.thwebco.com/login" target="_blank">Client Login</a></div>
+                   <!-- <div class="client-log-in"><a href="http://www.thwebco.com/login" target="_blank">Client Login</a></div> -->
 				</div>
 				<!-- ENDS wrapper-header -->					
 			</div>

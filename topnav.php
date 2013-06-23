@@ -3,7 +3,7 @@
 							<li><a href="#">Services<span class="subheader">What we offer</span></a>
 								<ul>
 									<li class="<?php if($current_page == 'dev') echo "current-menu-item";?>"><a href="development"><span> Web Design & Development</span></a></li>
-                                    <li class="<?php if($current_page == 'hosting') echo "current-menu-item";?>"><a href="cms"><span> kiwiCMS </span></a></li>
+                                  <!--  <li class="<?php if($current_page == 'hosting') echo "current-menu-item";?>"><a href="cms"><span> kiwiCMS </span></a></li> -->
 									<li class="<?php if($current_page == 'seo') echo "current-menu-item";?>"><a href="seo"><span> Search Engine Optimization </span></a></li>
 									<li class="<?php if($current_page == 'mobile') echo "current-menu-item";?>"><a href="mobile"><span> Mobile </span></a></li>
 									<li class="<?php if($current_page == 'social') echo "current-menu-item";?>"><a href="social"><span> Social Media </span></a></li>
