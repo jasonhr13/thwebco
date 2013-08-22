@@ -5,12 +5,12 @@
 						<li class="col">
 							<h6>Pages</h6>
 							<ul>
-										<li class="page_item"><a href="home">Home</a></li>
-								<li class="page_item"><a href="development">Services</a></li>
-								<li class="page_item"><a href="portfolio">Our Work</a></li>
-								<li class="page_item"><a href="about">About Us</a></li>
-                                <li class="page_item"><a href="client-links">Client Links</a></li>
-								<li class="page_item"><a href="contact">Contact</a></li>
+										<li class="page_item"><a href="home.php">Home</a></li>
+								<li class="page_item"><a href="development.php">Services</a></li>
+								<li class="page_item"><a href="portfolio.php">Our Work</a></li>
+								<li class="page_item"><a href="about.php">About Us</a></li>
+                                <li class="page_item"><a href="client-links.php">Client Links</a></li>
+								<li class="page_item"><a href="contact.php">Contact</a></li>
 						  </ul>
 						</li>
 						
